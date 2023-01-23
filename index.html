@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mobistore</title>
+    <link rel="icon" href="./img/smartphone.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/0f00e87e8e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/ui.js" defer></script>
+    <script src="./js/product.js" defer></script>
+  </head>
+  <body>
+    <!-- login modal -->
+    <div class="loginModal">
+      <div class="container">
+        <button class="modal_close">
+         <img src="./img/close.png" alt="">
+        </button>
+        <div class="header">
+          <img src="./img/smartphone.png" alt="">
+          <h3>Mobistore</h3>
+        </div>
+        <form>
+          <input type="email" placeholder="Enter Your Email" required>
+          <input type="password" placeholder="Enter Your Password" required>
+          <button>Login</button>
+        </form>
+        <p>Dont have a Account ? <a href="">Sign Up</a></p>
+      </div>
+    </div>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img src="./img/smartphone.png" alt="" />
+        <h3>Mobistore</h3>
+      </div>
+
+      <ul class="navlist">
+        <li><a class="homeLink active">Home</a></li>
+        <li><a class="productsLink">Products</a></li>
+        <li><a class="helpLink">Help</a></li>
+        <li><a class="aboutLink">About</a></li>
+        <li><a class="cartLink">Cart</a></li>
+        <li class="login"><button class="loginButton">Login Here</button></li>
+      </ul>
+
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <!-- home page section -->
+    <section class="home-section">
+      <div class="image-slider">
+        <div class="image-slider-container">
+          <div class="image1">
+            <img
+              src="https://i02.appmifile.com/60_operator_in/13/01/2022/abbe4899f9370aca8bc97a63b4ae230b.jpg"
+              alt=""
+            />
+          </div>
+          <div class="image2">
+            <img
+              src="https://i02.appmifile.com/523_operator_in/11/01/2022/1e51bc5b7de8696b31d04dbc74ffc42c.jpg"
+              alt=""
+            />
+          </div>
+          <div class="image3">
+            <img
+              src="https://i02.appmifile.com/929_operator_in/13/01/2022/c87cfcb4effaabb7d0b7eb1184dc4b29.jpg"
+              alt=""
+            />
+          </div>
+          <div class="image4">
+            <img
+              src="https://i02.appmifile.com/60_operator_in/13/01/2022/abbe4899f9370aca8bc97a63b4ae230b.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="slider-indicator">
+        <div class="indicator-1">
+          <i class="fas fa-long-arrow-alt-left"></i>
+        </div>
+        <div class="circle-indicator">
+          <div class="circle-indicator1"></div>
+          <div class="circle-indicator2"></div>
+          <div class="circle-indicator3"></div>
+        </div>
+        <div class="indicator-2">
+          <i class="fas fa-long-arrow-alt-right"></i>
+        </div>
+      </div>
+    </section>
+    <!-- product section -->
+    <section class="product__section">
+      <h2>Our Products</h2>
+      <select name="" id="" class="select__filter__option">
+        <option value="popularity">Popularity</option>
+        <option value="plth">Price Low to High</option>
+        <option value="phtl">Price High to Low</option>
+      </select>
+      <div class="productlist">
+        
+      </div>
+    </section>
+    <!-- help section -->
+    <section class="help">
+      <h2>Get in touch</h2>
+      <br>
+      <p>Want to get in touch? We'd love to hear from you. Here's how you can reach us...</p>
+      <div class="help__options">
+        <div class="telephone__details">
+          <img src="./img/phone-call.png" alt="">
+          <h6>Talk To Us</h5>
+            <button>+91 1234567890</button>
+        </div>
+        <div class="chat__details">
+          <img src="./img/bubble-chat.png" alt="">
+          <h6>Chat with Us</h5>
+            <button>Start Chating</button>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="about">
+      <div class="about__details">
+        <h4>ABOUT</h4>
+        <P>We provide latest smartphones with affordable prices and with 1 year warranty on handset and 6 months warranty on accessories</P>
+      </div>
+      <div class="connect">
+        <h4>Connect with us</h4>
+        <div class="links">
+          <a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.png" alt=""></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="./img/instagram.png" alt=""></a>
+          <a href="https://www.linkedin.com/" target="_blank"><img src="./img/linkedin.png" alt=""></a>
+          
+        </div>
+        
+      </div>
+      <p class="copyright">&copy 2021-2022 PRIVACY POLICY</p>
+    </section>
+    <!-- cart page -->
+    <div class="cart-page">
+      <button class="cart-close">
+        <img src="./img/close.png" alt="">
+      </button>
+      <h2>Your Cart</h2>
+      <div class="cart-items">
+       
+        
+      </div>
+      <div class="cart-action">
+        <button class="cart-subtotal-btn">Subtotal:-₹ <span class="subtotal">0</span></button>
+        <button class="cart-order-btn">Place Order Now</button>
+      </div>
+    </div>
+   
+  </body>
+</html>

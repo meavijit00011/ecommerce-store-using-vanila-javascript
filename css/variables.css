@@ -1,0 +1,23 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+
+/* styling that will be applied to all the elements */
+body {
+  overflow-x: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* defining variables */
+
+:root {
+  --green: #229954;
+  --light-grey: #fff;
+  --dark: #2c3e50;
+  --orange: orange;
+  --dark-grey: #d0d3d4;
+}
